@@ -5,15 +5,16 @@ export const Container = styled.div`
   width: 20%;
   flex-direction:column;
   align-items:center;
+  justify-content:space-around;
   background-color: #fff;
   border-radius: 2px;
   margin: 20px;
   padding:5px;
   p{
-    font-size: 24px
+    font-size: 26px
   }
   small{
-    font-size: 14px;
+    font-size: 16px;
     color: red;
   }
   @media (max-width: 1242px) {

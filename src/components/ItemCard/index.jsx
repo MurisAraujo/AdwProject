@@ -66,8 +66,10 @@ function ItemCard() {
     return (
         <>
             {items.map(item => (
-                <Container>
-                    <Image src={item.src} alt={item.src} />
+                <Container >
+                    <a href="/productdetails">
+                        <Image src={item.src} alt={item.src} />
+                    </a>
                     <p>{item.title}</p>
                     <small>{item.qtd} no estoque</small>
                     <p> {item.price} </p>
