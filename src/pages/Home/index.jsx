@@ -1,9 +1,18 @@
 import React from 'react';
-import Exemplo from '../../components/Carousel'
+import ImageCarousel from '../../components/Carousel';
+import ItemCard from '../../components/ItemCard';
+import {Container, ItemsSection, CarouselSection} from './styles'
 
 function Home() {
   return (
-    <Exemplo/>
+    <Container>
+      <CarouselSection>
+        <ImageCarousel/>
+      </CarouselSection>
+      <ItemsSection>
+        <ItemCard/>
+      </ItemsSection>
+    </Container>
   );
 }
 

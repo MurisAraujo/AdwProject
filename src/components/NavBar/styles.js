@@ -1,13 +1,16 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 100vw;
+  width: 100%;
 
   background-color: #b81414;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items:center;
+  a{
+    text-decoration: none;
+  }
   h1{
     color: #fff;
   }

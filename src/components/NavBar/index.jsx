@@ -13,13 +13,14 @@ import {
 
 function NavBar() {
     const [isOpen, setIsOpen] = useState(false);
-    const [height, setHeight] = useState(24.9);
 
     const toggle = () => setIsOpen(!isOpen);
 
     return (
         <Container>
-            <h1>Ecommerce</h1>
+            <a href="/">
+                <h1>Ecommerce</h1>
+            </a>
             <Input>
                 <input type="text" placeholder=" tem tuuudo, pode procurar :)" />
                 <div>
@@ -37,19 +38,19 @@ function NavBar() {
                     <Collapse isOpen={isOpen} navbar>
                         <Nav className="mr-auto" navbar style = {{display: "flex", justifyContent: 'space-around', width: '100%'}}>
                             <NavItem>
-                                <NavLink href="/products">Produtos</NavLink>
+                                <NavLink href="/products">Notebooks</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="/products">Produtos</NavLink>
+                                <NavLink href="/products">Desktops</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="/products">Produtos</NavLink>
+                                <NavLink href="/products">Smartphones</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="/products">Produtos</NavLink>
+                                <NavLink href="/products">Hardware</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="/products">Produtos</NavLink>
+                                <NavLink href="/products">Software</NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>
