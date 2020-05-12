@@ -24,7 +24,7 @@ function ItemCard() {
             src: product,
             title: 'Notebook1',
             price: 'R$ 2000,99',
-            qtd: 10
+            qtd: 0
         },
 
         {
@@ -59,7 +59,7 @@ function ItemCard() {
             src: product,
             title: 'Notebook1',
             price: 'R$ 2000,99',
-            qtd: 10
+            qtd: 0
         },
     ]
 

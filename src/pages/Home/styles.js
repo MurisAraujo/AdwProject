@@ -16,6 +16,11 @@ export const CarouselSection = styled.div `
 
 
 export const ItemsSection = styled.div `
+  h1{
+    text-align:center;
+    width:100%;
+    margin-top:10px;
+  }
   width:75%;
   display:flex;
   flex-direction: row;

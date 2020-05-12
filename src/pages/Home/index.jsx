@@ -10,6 +10,7 @@ function Home() {
         <ImageCarousel/>
       </CarouselSection>
       <ItemsSection>
+        <h1>SÓ AS MELHORES OFERTAS</h1>
         <ItemCard/>
       </ItemsSection>
     </Container>
